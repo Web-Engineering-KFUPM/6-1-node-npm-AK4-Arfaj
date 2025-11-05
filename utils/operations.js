@@ -1,16 +1,16 @@
 export function add(numbers) {
-  return {/*write code here*/}
+  return numbers.reduce((sum, num) => sum + num, 0);
 }
 
 export function subtract(numbers) {
-  return {/*write code here*/}
+  return numbers.reduce((sum, num) => sum - num, numbers[0]);
 }
 
 export function multiply(numbers) {
-  return {/*write code here*/}
+  return numbers.reduce((product, num) => product * num, 1);
 }
 
 export function divide(numbers) {
-  return {/*write code here*/}
+  return numbers.reduce((quotient, num) => quotient / num, numbers[0]);
 }
 
