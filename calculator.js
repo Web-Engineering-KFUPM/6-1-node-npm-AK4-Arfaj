@@ -104,10 +104,11 @@ Example structure:
 */
 
 if (!isValidOperation(operation)) {
-    console.log("Invalid operation. Use: add, subtract, multiply, or divide");
-    return;
+    console.log(operation, "is an invalid operation. Use: add, subtract, multiply, or divide");
+    // return;
 }
 
+else {
 const nums = parseNumbers(numbers);
 let result;
 
@@ -127,6 +128,7 @@ switch (operation) {
 }
 
 console.log(`Result: ${result}`);
+}
 
 /*
 
