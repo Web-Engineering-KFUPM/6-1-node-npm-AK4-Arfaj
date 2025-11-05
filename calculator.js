@@ -65,6 +65,13 @@ Example:
   const operation = process.argv[2];
   const numbers = process.argv.slice(3);
 
+*/
+
+const operation = process.argv[2];
+const numbers = process.argv.slice(3);
+
+/*
+
 ===================================================================
 TODO 3: Validate Input and Calculate (in calculator.js)
 ===================================================================
@@ -93,6 +100,10 @@ Example structure:
   }
 
   console.log(`Result: ${result}`);
+
+*/
+
+/*
 
 ===============================================================
 TODO 4: Create Math Operation Functions (in utils/operations.js)
@@ -124,6 +135,11 @@ Example for add:
   export function add(numbers) {
     return numbers.reduce((sum, num) => sum + num, 0);
   }
+
+
+*/
+
+/*
 
 ===============================================================
 TODO 5: Create Parser Functions Using Lodash (in utils/parser.js)
@@ -159,6 +175,12 @@ Example:
     const validOps = ["add", "subtract", "multiply", "divide"];
     return _.includes(validOps, operation);
   }
+
+
+*/
+
+
+/*
 
 ===============================================================
 Testing Your Calculator
